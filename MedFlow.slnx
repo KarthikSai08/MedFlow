@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/ApiGateway/" />
+  <Folder Name="/Appointment/" />
+  <Folder Name="/Billing/" />
+  <Folder Name="/Identity/" />
+  <Folder Name="/Notification/" />
+  <Folder Name="/Patient/" />
+  <Folder Name="/Pharmacy/" />
+  <Folder Name="/Reporting/" />
+  <Folder Name="/Shared/" />
+</Solution>
