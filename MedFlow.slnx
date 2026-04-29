@@ -1,11 +1,53 @@
 <Solution>
-  <Folder Name="/ApiGateway/" />
-  <Folder Name="/Appointment/" />
-  <Folder Name="/Billing/" />
-  <Folder Name="/Identity/" />
-  <Folder Name="/Notification/" />
-  <Folder Name="/Patient/" />
-  <Folder Name="/Pharmacy/" />
-  <Folder Name="/Reporting/" />
-  <Folder Name="/Shared/" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/gateway/">
+    <Project Path="src/gateway/MedFlow.Gateway.API/MedFlow.Gateway.API.csproj" />
+  </Folder>
+  <Folder Name="/src/services/" />
+  <Folder Name="/src/services/MedFlow.Appointment/">
+    <Project Path="src/services/MedFlow.Appointment/MedFlow.Appointment.API/MedFlow.Appointment.API.csproj" />
+    <Project Path="src/services/MedFlow.Appointment/MedFlow.Appointment.Application/MedFlow.Appointment.Application.csproj" />
+    <Project Path="src/services/MedFlow.Appointment/MedFlow.Appointment.Domain/MedFlow.Appointment.Domain.csproj" />
+    <Project Path="src/services/MedFlow.Appointment/MedFlow.Appointment.Infrastructure/MedFlow.Appointment.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/MedFlow.Billing/">
+    <Project Path="src/services/MedFlow.Billing/MedFlow.Billing.API/MedFlow.Billing.API.csproj" />
+    <Project Path="src/services/MedFlow.Billing/MedFlow.Billing.Application/MedFlow.Billing.Application.csproj" />
+    <Project Path="src/services/MedFlow.Billing/MedFlow.Billing.Domain/MedFlow.Billing.Domain.csproj" />
+    <Project Path="src/services/MedFlow.Billing/MedFlow.Billing.Infrastructure/MedFlow.Billing.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/MedFlow.Identity/">
+    <Project Path="src/services/MedFlow.Identity/MedFlow.Identity.API/MedFlow.Identity.API.csproj" />
+    <Project Path="src/services/MedFlow.Identity/MedFlow.Identity.Application/MedFlow.Identity.Application.csproj" />
+    <Project Path="src/services/MedFlow.Identity/MedFlow.Identity.Domain/MedFlow.Identity.Domain.csproj" />
+    <Project Path="src/services/MedFlow.Identity/MedFlow.Identity.Infrastructure/MedFlow.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/MedFlow.Notification/">
+    <Project Path="src/services/MedFlow.Notification/MedFlow.Notification.API/MedFlow.Notification.API.csproj" />
+    <Project Path="src/services/MedFlow.Notification/MedFlow.Notification.Application/MedFlow.Notification.Application.csproj" />
+    <Project Path="src/services/MedFlow.Notification/MedFlow.Notification.Domain/MedFlow.Notification.Domain.csproj" />
+    <Project Path="src/services/MedFlow.Notification/MedFlow.Notification.Infrastructure/MedFlow.Notification.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/MedFlow.Patient/">
+    <Project Path="src/services/MedFlow.Patient/MedFlow.Patient.API/MedFlow.Patient.API.csproj" />
+    <Project Path="src/services/MedFlow.Patient/MedFlow.Patient.Application/MedFlow.Patient.Application.csproj" />
+    <Project Path="src/services/MedFlow.Patient/MedFlow.Patient.Domain/MedFlow.Patient.Domain.csproj" />
+    <Project Path="src/services/MedFlow.Patient/MedFlow.Patient.Infrastructure/MedFlow.Patient.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/MedFlow.Pharmacy/">
+    <Project Path="src/services/MedFlow.Pharmacy/MedFlow.Pharmacy.API/MedFlow.Pharmacy.API.csproj" />
+    <Project Path="src/services/MedFlow.Pharmacy/MedFlow.Pharmacy.Application/MedFlow.Pharmacy.Application.csproj" />
+    <Project Path="src/services/MedFlow.Pharmacy/MedFlow.Pharmacy.Domain/MedFlow.Pharmacy.Domain.csproj" />
+    <Project Path="src/services/MedFlow.Pharmacy/MedFlow.Pharmacy.Infrastructure/MedFlow.Pharmacy.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/services/MedFlow.Reporting/">
+    <Project Path="src/services/MedFlow.Reporting/MedFlow.Reporting.API/MedFlow.Reporting.API.csproj" />
+    <Project Path="src/services/MedFlow.Reporting/MedFlow.Reporting.Application/MedFlow.Reporting.Application.csproj" />
+    <Project Path="src/services/MedFlow.Reporting/MedFlow.Reporting.Infrastructure/MedFlow.Reporting.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/shared/" />
+  <Folder Name="/src/shared/MedFlow.Shared/">
+    <Project Path="src/shared/MedFlow.Shared/MedFlow.Shared.Contracts/MedFlow.Shared.Contracts.csproj" />
+    <Project Path="src/shared/MedFlow.Shared/MedFlow.Shared.Infrastructure/MedFlow.Shared.Infrastructure.csproj" />
+  </Folder>
 </Solution>
