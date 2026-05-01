@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\shared\MedFlow.Shared\MedFlow.Shared.Contracts\MedFlow.Shared.Contracts.csproj" />
+    <ProjectReference Include="..\MedFlow.Identity.Domain\MedFlow.Identity.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
