@@ -2,11 +2,12 @@
 {
     public enum Roles
     {
-        Patient = 0,
-        Nurse = 1,
-        Docter = 2,
-        Pharmacist = 3,
-        Admin = 4,
-        Receptionist = 5
+        Viewer = 0,
+        Patient = 1,
+        Nurse = 2,
+        Doctor = 3,
+        Pharmacist = 4,
+        Admin = 5,
+        Receptionist = 6
     }
 }
